@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "lodash": "^4.17.21",
+    "prettier": "^2.3.2",
     "strapi": "3.6.5",
     "strapi-admin": "3.6.5",
     "strapi-utils": "3.6.5",
