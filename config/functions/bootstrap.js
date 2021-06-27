@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /**
  * An asynchronous bootstrap function that runs before
@@ -10,4 +10,14 @@
  * See more details here: https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/configurations.html#bootstrap
  */
 
-module.exports = () => {};
+module.exports = () => {
+  // const data = JSON.parse(require('fs').readFileSync('./data.json'))
+  //
+  // data.forEach((entry) => {
+  //   strapi.services.song.create({
+  //     title: entry.title,
+  //     added: new Date(entry.added),
+  //     code: entry.code,
+  //   })
+  // })
+}
