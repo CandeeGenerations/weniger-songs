@@ -2,39 +2,67 @@
   "name": "weniger-songs",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Dr. Brad Weniger, Sr. Original Songs",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "lodash": "^4.17.21",
-    "prettier": "^2.3.2",
-    "strapi": "3.6.5",
-    "strapi-admin": "3.6.5",
-    "strapi-connector-mongoose": "3.6.5",
-    "strapi-plugin-content-manager": "3.6.5",
-    "strapi-plugin-content-type-builder": "3.6.5",
-    "strapi-plugin-email": "3.6.5",
-    "strapi-plugin-graphql": "3.6.5",
-    "strapi-plugin-i18n": "3.6.5",
-    "strapi-plugin-upload": "3.6.5",
-    "strapi-plugin-users-permissions": "3.6.5",
-    "strapi-utils": "3.6.5"
+    "prettier": "^2.7.1",
+    "strapi": "^3.6.10",
+    "strapi-admin": "^3.6.10",
+    "strapi-connector-mongoose": "^3.6.10",
+    "strapi-plugin-content-manager": "^3.6.10",
+    "strapi-plugin-content-type-builder": "^3.6.10",
+    "strapi-plugin-email": "^3.6.10",
+    "strapi-plugin-graphql": "^3.6.10",
+    "strapi-plugin-i18n": "^3.6.10",
+    "strapi-plugin-upload": "^3.6.10",
+    "strapi-plugin-users-permissions": "^3.6.10",
+    "strapi-utils": "^3.6.10"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Tyler Candee <tyler@candeegenerations.com>"
   },
   "strapi": {
     "uuid": "2146d5d0-aefe-4416-9723-663fceea3507",
     "template": "https://github.com/strapi/strapi-template-gatsby-catalog"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "resolutions": {
+    "url-parse": "^1.5.9",
+    "urijs": "^1.19.11",
+    "minimist": "^1.2.6",
+    "nanoid": "^3.1.31",
+    "follow-redirects": "^1.14.8",
+    "parse-path": "^5.0.0",
+    "object-path": "^0.11.8",
+    "ansi-html": "^0.0.8",
+    "cross-fetch": "^3.1.5",
+    "node-forge": "^1.0.0",
+    "markdown-it": "^12.3.2",
+    "axios": "^0.21.2",
+    "json-schema": "^0.4.0",
+    "nth-check": "^2.0.1",
+    "eventsource": "^1.1.1",
+    "async": "^2.6.4",
+    "moment": "^2.29.4",
+    "glob-parent": "^5.1.2",
+    "validator": "^13.7.0",
+    "immer": "^9.0.6",
+    "mpath": "^0.8.4",
+    "mquery": "^3.2.3",
+    "node-fetch": "^2.6.7",
+    "ansi-regex": "^4.1.1",
+    "sharp": "^0.30.5",
+    "got": "^11.8.5",
+    "passport": "^0.6.0"
+  }
 }
